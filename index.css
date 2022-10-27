@@ -1,0 +1,26 @@
+/* @import url(./font/); */
+
+@font-face {
+  font-family: Designosaur;
+  src: url(./font/Designosaur-Regular.ttf);
+}
+
+* {
+  font-family: Designosaur;
+}
+
+.text_primary {
+  color: #cd2027;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.text_secondary {
+  color: #cd2027;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.text_gray {
+  color: rgba(0, 0, 0, 0.5);
+}
