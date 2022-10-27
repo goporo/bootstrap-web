@@ -17,6 +17,14 @@ p {
 a {
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+img {
+  max-width: 100%;
+}
 
 .wrapper {
   max-width: 960px;
@@ -27,8 +35,17 @@ a {
   .wrapper {
     width: 100%;
   }
-  img {
-    max-width: 320px;
+  .col {
+    flex: none;
+  }
+  .layer12 {
+    max-width: 100% !important;
+  }
+  .shape24 {
+    width: 100% !important;
+  }
+  .quote {
+    display: none;
   }
 }
 
@@ -50,6 +67,10 @@ a {
   color: rgba(0, 0, 0, 0.25);
 }
 
+.text_gray0 {
+  color: #cecece;
+}
+
 .main-content {
   background: #fcfcfc;
   padding: 2px 40px 50px;
@@ -69,6 +90,12 @@ a {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
+.circle-btn {
+  border-radius: 100px !important;
+  padding: 4px 10px !important;
+  min-width: 0 !important;
+}
+
 .btn:hover {
   opacity: 0.85;
 }
@@ -81,4 +108,15 @@ a {
 .gray-btn {
   color: #838383 !important;
   background-image: linear-gradient(#f2f2f2, #dcdcdc);
+}
+
+.center {
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.footer {
+  background-color: #222222;
+  padding: 10px 10px 5px 10px;
+  align-items: center;
 }
